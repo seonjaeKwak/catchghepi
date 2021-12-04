@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://h20172911.wixsite.com/catch",
+    "text": "캐치팀(곽선재)"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n캐릭터를 검색하여 협업 상황을 알아보세요!\n\u003c/p\u003e\n\u003cp\u003e\n1위: 카카오프렌즈 2위: 펭수 3위: 뽀로로 4위: 마블 5위: 짱구는 못말려\n\u003c/p\u003e\n\u003cp\u003e\n6위: 포켓몬스터 7위: 헬로키티 8위: 둘리 9위: 겨울왕국 10위: 도라에몽\n\u003c/p\u003e",
+    "intro": "한국컨텐츠진행원에서 선별한 1위부터 10위까지 캐릭터의 협업 내용을 알아보기 위하여 시각화를 하였습니다.",
+    "title": "캐릭터 협업 시각망"
+  },
+  "legend": {
+    "edgeLabel": "협업 ",
+    "colorLabel": "집단",
+    "nodeLabel": "캐릭터,기업,산업"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "image",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
